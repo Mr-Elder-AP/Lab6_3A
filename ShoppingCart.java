@@ -41,7 +41,7 @@ public class ShoppingCart {
     			temp[i] = items[i];
     		}
     		
-    		items = new Item[temp.length * 2];
+    		items = new Item[temp.length + 3];
     		
     		for(int i = 0; i < temp.length; i++)
     		{
